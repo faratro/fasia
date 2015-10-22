@@ -1,0 +1,1 @@
+web: gunicorn fasia.wsgi --log-file -
