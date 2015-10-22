@@ -74,6 +74,8 @@ WSGI_APPLICATION = 'fasia.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
+# 23-10-2015 (01:16) - Andrea: Bisogna capire se a livello hosting (Heroku) viene utilizzato sqlite...
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
